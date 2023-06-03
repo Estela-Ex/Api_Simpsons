@@ -1,0 +1,62 @@
+::-webkit-scrollbar{
+  display: none;
+}
+body {
+  margin: 0;
+  font-family: "Homer Simpson Revised", sans-serif;
+  font-size: 22px;
+}
+.container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex-container.wrap {
+  flex-wrap: wrap;
+}
+.card-container {
+  display: flex;
+  width: 100%;
+  height: 25rem;
+  justify-content: space-between;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px 1px gray;
+}
+
+.miboton {
+  border-radius: 6px;
+  border: 1px solid gray;
+  width: 8rem;
+  height: 3.4rem;
+}
+.card-info {
+  padding: 1rem;
+  width: 40rem;
+  background-color: #92dcff5e;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  >span{
+    /* font-weight: bold ; */
+    font-size: 1.4rem;
+   >strong{
+    text-decoration: underline;
+   } 
+    
+  }
+  overflow-y: auto;
+
+ 
+  
+}
+
+.page-button-container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  margin-bottom: 6rem;
+}
