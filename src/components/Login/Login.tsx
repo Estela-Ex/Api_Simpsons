@@ -8,14 +8,14 @@ import { useAuthContext } from "../../context/AuthContext";
 
 
 export default function Login() {
-  const { setUser, user } = useAuthContext();
+  const { setUser } = useAuthContext();
   const { values, touched, errors, handleChange, handleBlur, handleSubmit, isSubmitting }: FormikProps<UserAuth> = useFormik<UserAuth>({
     initialValues,
     validationSchema: SchemaLogin,
     onSubmit: login,
   });
   function login(values: UserAuth | null, actions: FormikHelpers<UserAuth> | any) {
-    if (values?.email === "estela@gmail.com" && values?.password === "Uu12345") {
+    if (values?.email === "prueba@gmail.com" && values?.password === "Pp12345") {
       setUser(values);
       actions.resetForm();
      
