@@ -3,7 +3,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import { theme } from "./styles";
 import AuthContextProvider from "./context/AuthContext";
-import Home from "../src/views/Home/Home";
+// import Home from "../src/views/Home/Home";
 import Characters from "./views/Characters/Character";
 import SearchContextProvider from '../src/context/SearchContext'
 import "./App.css";
