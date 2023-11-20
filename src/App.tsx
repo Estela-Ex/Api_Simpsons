@@ -17,7 +17,7 @@ function App() {
           <CssBaseline />
           <Routes>
             <Route path="/">
-            <Route index element={<Home />} />
+            <Route index element={<Characters />} />
             <Route path="characters" element={<Characters />} /> 
             </Route>
           </Routes>
