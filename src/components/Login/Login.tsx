@@ -15,7 +15,7 @@ export default function Login() {
     onSubmit: login,
   });
   function login(values: UserAuth | null, actions: FormikHelpers<UserAuth> | any) {
-    if (values?.email === "estela@gmail.com" && values?.password === "Uu12345") {
+    if (values?.email === "prueba@gmail.com" && values?.password === "Uu12345") {
       setUser(values);
       actions.resetForm();
      
